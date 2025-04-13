@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/yourusername/intellect/domain"
+	"github.com/gustavorteuber/intellect/domain"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/yourusername/intellect/config"
+	"github.com/gustavorteuber/intellect/config"
 )
 
 type MySQLPropertyRepository struct {

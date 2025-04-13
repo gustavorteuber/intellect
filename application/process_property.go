@@ -1,8 +1,8 @@
 package application
 
 import (
-	"github.com/yourusername/intellect/domain"
-	"github.com/yourusername/intellect/infrastructure"
+	"github.com/gustavorteuber/intellect/domain"
+	"github.com/gustavorteuber/intellect/infrastructure"
 	"log"
 )
 

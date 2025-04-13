@@ -6,7 +6,6 @@ import (
 	"os"
 )
 
-// Configura as variáveis de ambiente a partir do arquivo .env
 func LoadEnvVariables() {
 	err := godotenv.Load()
 	if err != nil {
@@ -14,7 +13,6 @@ func LoadEnvVariables() {
 	}
 }
 
-// Funções para pegar as variáveis de ambiente
 func GetDBUser() string {
 	return os.Getenv("DB_USER")
 }
